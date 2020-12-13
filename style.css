@@ -1,0 +1,56 @@
+.out {
+	height: 350px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	overflow: hidden;
+	object-position: center;
+	text-align: center;
+}
+
+.out img {
+	width: 80%;
+	height: auto;
+	object-position: 0px -300px;
+	object-fit: cover;
+}
+
+.container {margin: auto;
+  width: 60%;
+  padding: 10px;
+text-align:center;
+}
+
+.heading1
+{border-style:solid;
+border-width: 2px  0  4px  0;
+border-color: #0D4B6E; 
+margin-top: 5px;
+}
+
+.col-sm-4
+{margin-top:20px;
+margin-bottom:50px;}
+
+.col-sm-4 img
+{margin-top:20px;
+height:200px;
+width:100%;}
+
+.footer {
+	width: 100%
+	position: absolute;
+	bottom: 0px;	
+  height: 100px;
+	background-color: #3D3D3D;
+  padding-top: 50px;
+}
+
+.copyright {
+  font-size: xxsmall;
+}
+
+.logo img
+{
+	width: 135px;
+	height:75px;
+}
