@@ -1,54 +1,99 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" type="text/css" href="index.css">
-  <head>
-    <title>Maxx Potential</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
+<head>
+<title>Maxx Potential Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 <body>
-<div class="topnav">
-    <div class="logo"><img src="Company-Logo.png" style="margin-left:150px;margin-top:35px;"></div>
-     </div>
-     <div class="title"> <ul><li>Hi, I'm Haley</li><li>Web Designer</li></ul></div>
-  </div><div class="out"><img src="hero 1.jpg"></div>
- <div class="container">
-   <div class="title">
-     <h1><b>PORTFOLIO</b></h1></div>
-  <div class="row">
-    <div class="col-sm-4">
-      <div class="heading1"><h3>TECHNOLINE</h3>
-        <h4 style="font-family: baskerville;
-	font-style: italic;
-	color: #BB1F25; margin-top: -10px; margin-bottom:15px;">technoline.com</h4></div>
-      <p><img src="company photo1.jpg"></p>
-      <p></p>
+    <div class="navbar">
+    <a href="https://www.maxxpotential.com" class="logo"><img src="https://raw.githubusercontent.com/oddfig/oddfig-github.io/oddfig-patch-1/Company-Logo.png"></a>
+
+    <ul class="nav" style="list-style: none">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i></a>
+    </ul>
+</div>
+<div class="banner-area" id="home">
+    <div class="header-area">
+            <header>
+        <div class="home-container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Hi, I'm Haley</div>
+                <div class="intro-heading">I want to be a web designer.</div>
+                <a href="https://app.gun.io/work-styles/results/fe5dc194-123c-4633-8326-e3d870d5f6fb/" target="_blank" class="button">Workstyle Assessment</a>
+            </div>
+        </div>
+    </header>
+</div></div>
+
+ </div>
+<div class="about-area" id="about">
+<div class="text-area">
+    <h1>About</h1>
+        <p> I'm from Virginia, currently residing in Fredericksburg, VA. In my free time I enjoy riding my bike, learning new things, and writing. I consider myself to be an adaptable individual, dedicated to my continuous growth. Thanks for visiting my website! <br>  </p>  
     </div>
-    <div class="col-sm-4">
-      <div class="heading1">
-      <h3>MAJESTIQUE</h3>
-        <h4 style="font-family: baskerville;
-	font-style: italic;
-	color: #BB1F25; margin-top: -10px; margin-bottom:15px;">majestique.com</h4></div>
-      <p><img src="company photo2.jpg"></p>
-    </div>
-    <div class="col-sm-4">
-      <div class="heading1">
-      <h3>SILVERZIM</h3>  
-        <h4 style="font-family: baskerville;
-	font-style: italic;
-	color: #BB1F25; margin-top: -10px; margin-bottom:15px;">silverzim.com</h4></div>
-      <p><img src="company photo3.jpeg"></p>
+</div>
+<div class="port-area" id="portfolio">
+
+                <div class="row" style="margin-top:100px; margin-bottom:100px;">
+           <div class="container"> <img src="https://raw.githubusercontent.com/oddfig/oddfig-github.io/oddfig-patch-1/company%20photo1.jpg" style="width=100%" class="image">
+            <div class="middle">
+                <div class="text">technoline</div> </div></div>
+    
+
+    <div class="container"><img src="https://raw.githubusercontent.com/oddfig/oddfig-github.io/oddfig-patch-1/company%20photo2.jpg" style="width:100%" class="image"><div class="middle"><div class="text">majestique</div></div></div>
+
+   <div class="container"> <img src="https://raw.githubusercontent.com/oddfig/oddfig-github.io/oddfig-patch-1/company%20photo3.jpeg" style="width:100%" class="image"><div class="middle"><div class="text">silverzim</div></div></div></div></div>
+</table>
+
+  </div>
+</div>  
+</div>
+        </div>
     </div>
   </div>
-</div> 
-  <div class="footer">
-    <p id="copyright" style="text-align:center; color:white; ">&copy;2020. Haley's Web Dev. All rights reserved.</p></div>
-    
-</body>
-<p> </p>
+</div></div>
+</div>
+<div class="contact-area" id="contact">
+    <div class="text-area" style="margin-bottom: 50px;">
+        <h1> Contact </h1>
+<div class="container1">
+  <form action="action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="email">Email Address</label>
+    <input type="text" id="email" name="email" placeholder="Your email address..">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</div></div>
+<div class="footer">
+    <p>Copyright &copy 2020, Haley's Desk, Haley's Web Dev.</p>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
 </body>
 </html>
